@@ -1,0 +1,77 @@
+/* format sizes of images */
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+}
+
+/* format body and links */
+body,
+a {
+color: rgb(240, 81, 33);
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+p {
+    color: black;
+    font-weight: 400;
+}
+
+.recipe-heading {
+    text-align: center;
+}
+
+
+
+
+
+/* layout arrangement and format */
+body,
+.header {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header {
+    background-color: rgb(248, 233, 233);
+    text-align: center;
+    justify-content: flex-start;
+    flex: 1 0 300px;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.egusi,
+.jollof,
+.fisherman {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+   /* margin: 15px;*/
+}
+
+h1 {
+    flex: 0 0 30px;
+}
+
+h2 {
+    flex: 1 2 20px;
+    margin-bottom: 0px;
+}
+
+p {
+    flex: 2 1 300px;
+}
